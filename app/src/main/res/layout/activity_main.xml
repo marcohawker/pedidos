@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="201dp"
+        android:layout_marginTop="8dp"
+        android:text="App de prueba hecha por Marco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.983" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="279dp"
+        android:text="@string/Receta5"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:text="@string/Receta3"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:text="@string/Receta4"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:text="@string/Receta2"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Receta1"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
